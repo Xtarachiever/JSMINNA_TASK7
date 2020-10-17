@@ -14,7 +14,7 @@ body{
     justify-content: space-around;
     display: flex;
 }
-#check{
+#nav{
     display:none;
 }
  .header{
@@ -69,6 +69,14 @@ body{
         color:white;
         margin-top:30px;
     }
+    #nav{
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+    #check{
+        display: none;
+    }
     .list li a{
         display: block;
         width: 100%;
@@ -96,7 +104,7 @@ body{
     label #btn{
         left:40px;
         top:7px;
-        font-size:35px;
+        font-size:30px;
         color:white;
         padding:3px 8px;
         transition: all .5s;
@@ -105,10 +113,10 @@ body{
     label #cancel{
         z-index:1111;
         left:-195px;
-        top:30px;
-        font-size:30px;
+        top:40px;
+        font-size:20px;
         color:#0a5275;
-        padding:4px 9px;
+        padding:3px 7px;
         transition: all .5s ease;
     }
     #check:checked~label #btn{
