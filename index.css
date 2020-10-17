@@ -14,6 +14,10 @@ body{
     justify-content: space-around;
     display: flex;
 }
+.list li a:hover{
+    padding-left: 20px;
+    color:rgb(247, 83, 146);
+}
 #nav{
     display:none;
 }
