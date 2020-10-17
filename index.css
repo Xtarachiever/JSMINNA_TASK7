@@ -14,8 +14,8 @@ body{
     justify-content: space-around;
     display: flex;
 }
-#check{
-    display: none;
+#nav{
+    display:none;
 }
  .header{
     color: white;
@@ -98,16 +98,16 @@ body{
     }
     label #btn{
         left:40px;
-        top:25px;
+        top:7px;
         font-size:35px;
         color:white;
-        padding:6px 12px;
+        padding:3px 8px;
         transition: all .5s;
     }
     label #cancel{
         z-index:1111;
         left:-195px;
-        top:50px;
+        top:30px;
         font-size:30px;
         color:#0a5275;
         padding:4px 9px;
@@ -119,7 +119,7 @@ body{
         pointer-events: none;
     }
     #check:checked~label #cancel{
-        left:210px;
+        left:200px;
     }
 }
 
