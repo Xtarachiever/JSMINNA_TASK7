@@ -102,11 +102,11 @@ body{
         border-radius:3px;
     }
     label #btn{
-        left:40px;
+        left:30px;
         top:7px;
-        font-size:30px;
+        font-size:20px;
         color:white;
-        padding:3px 8px;
+        padding:3px 7px;
         transition: all .5s;
         display:block;
     }
