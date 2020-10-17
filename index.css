@@ -48,7 +48,7 @@ body{
 }
 @media(max-width:760px){
     body{
-        overflow: hidden;
+        overflow-y: hidden;
     }
     /* .navigation{
         background-color: #042331;
@@ -107,7 +107,7 @@ body{
     }
     label #btn{
         left:26px;
-        top:12px;
+        top:15px;
         font-size:20px;
         color:white;
         padding:3px 7px;
