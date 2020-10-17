@@ -14,7 +14,7 @@ body{
     justify-content: space-around;
     display: flex;
 }
-#nav{
+#check{
     display:none;
 }
  .header{
@@ -103,6 +103,7 @@ body{
         color:white;
         padding:3px 8px;
         transition: all .5s;
+        display:block;
     }
     label #cancel{
         z-index:1111;
