@@ -93,9 +93,6 @@ body{
         background-color:#0b77a8;
         border-radius:3px;
     }
-    #check{
-        display: none;
-    }
     label #btn{
         left:40px;
         top:7px;
