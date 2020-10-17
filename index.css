@@ -14,10 +14,6 @@ body{
     justify-content: space-around;
     display: flex;
 }
-.list li a:hover{
-    padding-left: 20px;
-    color:rgb(247, 83, 146);
-}
 #nav{
     display:none;
 }
@@ -40,6 +36,10 @@ body{
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
+}
+.list li a:hover{
+    padding-left: 20px;
+    color:rgb(247, 83, 146);
 }
 @media(max-width:1024px){
     .list{
