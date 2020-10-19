@@ -37,12 +37,16 @@ body{
     font-size: 14px;
     text-decoration: none;
 }
+.list li a:hover{
+    padding-left: 20px;
+    color:rgb(247, 83, 146);
+}
 @media(max-width:1024px){
     .list{
         width:40%;
     }
 }
-@media(max-width:760px){
+@media(max-width:780px){
     body{
         overflow: hidden;
     }
@@ -103,7 +107,7 @@ body{
     }
     label #btn{
         left:40px;
-        top:7px;
+        top:12px;
         font-size:30px;
         color:white;
         padding:3px 8px;
@@ -126,6 +130,29 @@ body{
     }
     #check:checked~label #cancel{
         left:200px;
+    }
+}
+@media(max-width:320px){
+    .header{
+        font-size: 12px;
+    }
+    label #btn{
+        left:40px;
+        top:8px;
+        font-size:20px;
+        color:white;
+        padding:3px 8px;
+        transition: all .5s;
+        display:block;
+    }
+    .list{
+        position: absolute;
+        background-color: #042331;
+        left: -2px;
+        height: 100%;
+        top:36px;
+        width: 250px;
+        display: none;
     }
 }
 
