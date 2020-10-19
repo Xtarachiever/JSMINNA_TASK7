@@ -46,6 +46,10 @@ body{
         width:40%;
     }
 }
+@media(max-width:324px){
+    .header{
+        font-size:15px;
+}
 @media(max-width:760px){
     body{
         overflow-y: hidden;
