@@ -48,7 +48,7 @@ body{
 }
 @media(max-width:780px){
     body{
-        overflow: hidden;
+        overflow-y: hidden;
     }
     /* .navigation{
         background-color: #042331;
@@ -110,7 +110,7 @@ body{
         top:12px;
         font-size:30px;
         color:white;
-        padding:3px 8px;
+        padding:3px 7px;
         transition: all .5s;
         display:block;
     }
